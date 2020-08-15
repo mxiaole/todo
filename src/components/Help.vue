@@ -1,12 +1,17 @@
 <template>
-  <div>
-    this is my todo app
-  </div>
+    <div>
+        this is my todo app {{ msg }}
+    </div>
 </template>
 
 <script>
 export default {
-  name: "Help"
+    name: "Help",
+    data() {
+        return {
+            msg: "todo app"
+        }
+    }
 }
 </script>
 
